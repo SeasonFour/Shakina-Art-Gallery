@@ -1,13 +1,8 @@
-
-
-.demo-3 {
-    position:relative;
-    width:300px;
-    height:200px;
-    overflow:hidden;
-    float:left;
-    /*margin-right:20px*/
+.demo{
+    margin: 2px;
+    padding-top: 2px;
 }
+
 .demo-3 figure {
     margin:0;
     padding:0;
@@ -19,7 +14,7 @@
     display:block;
     position:relative;
     z-index:10;
-    margin:-15px 0
+    /*margin:-15px 0*/
 }
 .demo-3 figure figcaption {
     display:block;
@@ -33,7 +28,7 @@
     font-family:'Lato';
     color:#fff;
     font-size:20px;
-    text-align:left
+    text-align:center
 }
 .demo-3 figure p {
     display:block;
@@ -42,15 +37,15 @@
     line-height:18px;
     margin:0;
     color:#fff;
-    text-align:left
+    text-align:center
 }
 .demo-3 figure figcaption {
     top:0;
     left:0;
     width:300px;
     height:200px;
-    padding:29px 44px;
-    background-color:rgba(26,76,110,0.5);
+    /*padding:29px 44px;*/
+    background-color:rgba(92,90,10,0.3);
     text-align:center;
     backface-visibility:hidden;
     -webkit-transform:rotateY(-100deg);
@@ -75,12 +70,6 @@
     -webkit-transform:rotateY(0);
     -moz-transform:rotateY(0);
     transform:rotateY(0)
-}
-
-
-.demo-3{
-    display: inline-block;
-    float: right;
 }
 
 
